@@ -1,0 +1,317 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    background-image: url('Image/background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* PRESENTATION */
+#Présentation {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+#Présentation span {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: white;
+}
+
+#Présentation span:first-child {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Présentation:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+#MainTop {
+    background-color: #343a40;
+    padding: 10px 0;
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#MainTop nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 45px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+#MainTop nav a:hover {
+    color: #17a2b8;
+    transform: scale(1.1);
+}
+
+#MainTop nav {
+    display: flex;
+    transition: background-color 0.3s ease;
+}
+
+#MainTop:hover nav {
+    background-color: #2d3238;
+}
+
+
+#Profil {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+#Profil img {
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* CENTRE INTERET*/
+#CentreInteret {
+    text-align: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#CentreInteret img {
+    width: 10%;
+    margin: 10px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+#CentreInteret img:hover {
+    transform: scale(1.1);
+}
+
+#Réseaux {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Réseaux img {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 35%;
+}
+
+#Réseaux a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#Réseaux a:hover {
+    color: #17a2b8;
+}
+
+/* PROJET PROFESSIONNEL*/
+#Conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Professionnel,
+#Ecole,
+#Lycee {
+    width: 30%;
+    margin: 2%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+#Professionnel:hover,
+#Ecole:hover,
+#Lycee:hover {
+    transform: scale(1.05);
+}
+
+#Professionnel span,
+#Ecole span,
+#Lycee span {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#Professionnel p,
+#Ecole p,
+#Lycee p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+#Professionnel img,
+#Ecole img,
+#Lycee img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* COMPETENCES TECHNIQUES */
+#Qualité {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 50px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#Qualité>div {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+}
+
+#Qualité img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+#Qualité h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#Qualité span {
+    font-size: 1em;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    #Qualité {
+        padding: 50px 10px;
+    }
+
+    #Qualité>div {
+        margin: 10px;
+    }
+}
+
+/* CERTIFICAT */
+
+#Certification {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Atelier {
+    border: 2px transparent #333;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#Atelier h3 {
+    margin-bottom: 10px;
+}
+
+#Atelier img {
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#Atelier:hover {
+    transform: scale(1.05);
+}
+
+#Menu {
+    margin-top: 20px;
+}
+
+#Menu a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#Menu a:hover {
+    background-color: #0b6e80;
+}
+
+#Présentation,
+#Profil,
+#CentreInteret,
+#Conteneur,
+#Qualité,
+#Certification,
+#Réseaux {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: appearAnimation 1s forwards;
+}
+
+@keyframes appearAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#Qualité div {
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: appearAnimation 1s forwards;
+}
+
+@keyframes m {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
